@@ -9,7 +9,7 @@ export default function About() {
     const[about,setAbout] = useState(false)
     return (
         <>
-            <div class="container">
+            <div className="container">
                 <div className="left fh5co-center-position ">
                     <p className='animate-box fadeInUp animated  '>03.03.1993 – cü ildə Zərdab rayonu Pərvanlı kəndində anadan olmuşam . 2011 – ci ildə 439 bal toplayaraq ADPU – nun Coğrafiya müəllimliyi ixtisasına qəbul olmuşam(ödənişsiz) . 2015 – ci ildə Akademik məzuniyyət götürərək Hərbi Xidmətə getmişəm. 2017 – ci ildə universiteti bitirib MİQ imtahanında 44 bal toplayaraq hazırda işlədiyim İmişli rayonu S.Məmmədov adına Axıcanlı kənd tam orta məktəbinə qəbul olmuşam. Hazırda əmək müqaviləmə əsasən həmin müəssisənin işçisiyəm. Əlavə olaraqda həmin rayonun A.Allahverdiyev adına Qaralar kənd tam orta məktəbdədə 3 il müddətli müqavilə ilə çalışmışam . Həmçinin hər iki məktəbin UTİS, ŞAGİRD-MƏZUN, e-gov və s sistemlər üzrə kordinaatoruyamBundan sonra özümü İT sahəsində yoxlayacam və inanıramkı daha çox uğur qazana biləcəm</p> 
                     <button className='btn btn-outline-success my-2 my-sm-0 animate-box fadeInUp animated' onClick={()=>{setAbout(true)}}>Davamını oxu</button>
