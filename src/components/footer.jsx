@@ -11,7 +11,7 @@ import Image6 from '../assets/image/image6.jpg'
 export default function Footer() {
   return (
     <>
-      <footer className="text-center text-white txtc" >
+      <footer className="text-center text-white" >
         {/* Grid container */}
         <div className="container p-4">
           {/* Section: Images */}
@@ -21,7 +21,7 @@ export default function Footer() {
                 <div className="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
                   <img src={Image1} className="w-100" />
                   <Link to="#!">
-                    <div/>
+                    <div className="mask image" />
                   </Link>
                 </div>
               </div>
@@ -29,7 +29,7 @@ export default function Footer() {
                 <div className="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
                   <img src={Image2} className="w-100" />
                   <Link to="#!">
-                    <div/>
+                    <div className="mask image" />
                   </Link>
                 </div>
               </div>
@@ -37,7 +37,7 @@ export default function Footer() {
                 <div className="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
                   <img src={Image3} className="w-100" />
                   <Link to="#!">
-                    <div/>
+                    <div className="mask image"  />
                   </Link>
                 </div>
               </div>
@@ -45,7 +45,7 @@ export default function Footer() {
                 <div className="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
                   <img src={Image4} className="w-100" />
                   <Link to="#!">
-                    <div/>
+                    <div className="mask image"  />
                   </Link>
                 </div>
               </div>
@@ -53,7 +53,7 @@ export default function Footer() {
                 <div className="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
                   <img src={Image5} className="w-100" />
                   <Link to="#!">
-                    <div/>
+                    <div className="mask image"  />
                   </Link>
                 </div>
               </div>
@@ -61,7 +61,7 @@ export default function Footer() {
                 <div className="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
                   <img src={Image6} className="w-100" />
                   <Link to="#!">
-                    <div/>
+                    <div className="mask image"  />
                   </Link>
                 </div>
               </div>
