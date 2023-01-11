@@ -1,4 +1,5 @@
 import React from 'react'
+import{ Link }from 'react-router-dom'
 import Image1 from '../assets/image/image1.jpg'
 import Image2 from '../assets/image/image2.jpg'
 import Image3 from '../assets/image/image3.jpg'
@@ -18,49 +19,49 @@ export default function Footer() {
               <div className="col-lg-2 col-md-12 mb-4 mb-md-0">
                 <div className="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
                   <img src={Image1} className="w-100" />
-                  <a href="#!">
+                  <Link to="#!">
                     <div className="mask" style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }} />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-lg-2 col-md-12 mb-4 mb-md-0">
                 <div className="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
                   <img src={Image2} className="w-100" />
-                  <a href="#!">
+                  <Link to="#!">
                     <div className="mask" style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }} />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-lg-2 col-md-12 mb-4 mb-md-0">
                 <div className="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
                   <img src={Image3} className="w-100" />
-                  <a href="#!">
+                  <Link to="#!">
                     <div className="mask" style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }} />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-lg-2 col-md-12 mb-4 mb-md-0">
                 <div className="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
                   <img src={Image4} className="w-100" />
-                  <a href="#!">
+                  <Link to="#!">
                     <div className="mask" style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }} />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-lg-2 col-md-12 mb-4 mb-md-0">
                 <div className="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
                   <img src={Image5} className="w-100" />
-                  <a href="#!">
+                  <Link to="#!">
                     <div className="mask" style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }} />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-lg-2 col-md-12 mb-4 mb-md-0">
                 <div className="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
                   <img src={Image6} className="w-100" />
-                  <a href="#!">
+                  <Link to="#!">
                     <div className="mask" style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }} />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -71,7 +72,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="text-center p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
           © 2023 Copyright:
-          <a className="text-white" href="#!">Karimli Aghabala</a>
+          <Link className="text-white" to="#!">Karimli Aghabala</Link>
         </div>
         {/* Copyright */}
       </footer>
