@@ -11,7 +11,7 @@ import Image6 from '../assets/image/image6.jpg'
 export default function Footer() {
   return (
     <>
-      <footer className="text-center text-white" >
+      <footer className="text-center text-white txtc" >
         {/* Grid container */}
         <div className="container p-4">
           {/* Section: Images */}
