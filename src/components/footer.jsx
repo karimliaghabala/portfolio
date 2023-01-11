@@ -1,5 +1,6 @@
 import React from 'react'
 import{ Link }from 'react-router-dom'
+import '../components/footer.css'
 import Image1 from '../assets/image/image1.jpg'
 import Image2 from '../assets/image/image2.jpg'
 import Image3 from '../assets/image/image3.jpg'
@@ -10,7 +11,7 @@ import Image6 from '../assets/image/image6.jpg'
 export default function Footer() {
   return (
     <>
-      <footer className="text-center text-white" style={{ backgroundColor: '#caced1' }}>
+      <footer className="text-center text-white txtc" >
         {/* Grid container */}
         <div className="container p-4">
           {/* Section: Images */}
@@ -20,7 +21,7 @@ export default function Footer() {
                 <div className="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
                   <img src={Image1} className="w-100" />
                   <Link to="#!">
-                    <div className="mask" style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }} />
+                    <div className="mask image" />
                   </Link>
                 </div>
               </div>
@@ -28,7 +29,7 @@ export default function Footer() {
                 <div className="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
                   <img src={Image2} className="w-100" />
                   <Link to="#!">
-                    <div className="mask" style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }} />
+                    <div className="mask image" />
                   </Link>
                 </div>
               </div>
@@ -36,7 +37,7 @@ export default function Footer() {
                 <div className="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
                   <img src={Image3} className="w-100" />
                   <Link to="#!">
-                    <div className="mask" style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }} />
+                    <div className="mask image"  />
                   </Link>
                 </div>
               </div>
@@ -44,7 +45,7 @@ export default function Footer() {
                 <div className="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
                   <img src={Image4} className="w-100" />
                   <Link to="#!">
-                    <div className="mask" style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }} />
+                    <div className="mask image"  />
                   </Link>
                 </div>
               </div>
@@ -52,7 +53,7 @@ export default function Footer() {
                 <div className="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
                   <img src={Image5} className="w-100" />
                   <Link to="#!">
-                    <div className="mask" style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }} />
+                    <div className="mask image"  />
                   </Link>
                 </div>
               </div>
@@ -60,7 +61,7 @@ export default function Footer() {
                 <div className="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
                   <img src={Image6} className="w-100" />
                   <Link to="#!">
-                    <div className="mask" style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }} />
+                    <div className="mask image"  />
                   </Link>
                 </div>
               </div>
@@ -70,7 +71,7 @@ export default function Footer() {
         </div>
         {/* Grid container */}
         {/* Copyright */}
-        <div className="text-center p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+        <div className="text-center p-3 textFooter" >
           © 2023 Copyright:
           <Link className="text-white" to="#!">Karimli Aghabala</Link>
         </div>
