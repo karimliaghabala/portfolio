@@ -13,7 +13,7 @@ export default function Footer() {
         {/* Grid container */}
         <div className="container p-4">
           {/* Section: Images */}
-          <section className>
+          <section >
             <div className="row">
               <div className="col-lg-2 col-md-12 mb-4 mb-md-0">
                 <div className="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
