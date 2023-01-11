@@ -3,6 +3,7 @@ import About from './components/about'
 import Contact from './components/contact'
 import Myworks from './components/myworks'
 import Sertficat from './components/sertficat'
+import Footer from './components/footer'
 import { Routes, Route, Link } from 'react-router-dom'
 import "./App.css"
 import "./components/css_library/animation.css"
@@ -35,6 +36,7 @@ export default function App() {
           </form>
         </div>
       </nav>
+      <Footer/>
       <Routes>
         <Route path='/' element={<About />} />
         <Route path='/about' element={<About />} />

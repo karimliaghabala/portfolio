@@ -2,6 +2,7 @@ import React from 'react'
 import './contact.css'
 
 export default function Contact() {
+
     return (
         <div className='contact animate-box fadeInUp animated ' >
             <form id="formFeedback ">
