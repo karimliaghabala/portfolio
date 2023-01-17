@@ -2,21 +2,21 @@ import React from 'react'
 import './contact.css'
 
 export default function Contact() {
-    const submit = document.getElementById('submitEmail');
-    const form = document.getElementById('formFeedback');
+    // const submit = document.getElementById('submitEmail');
+    // const form = document.getElementById('formFeedback');
 
-    submit.addEventListener('click', (e) => {
-        e.preventDefault();
-        const serviceID = 'default_service';
-        const templateID = 'template_trcpd9k';
+    // submit.addEventListener('click', (e) => {
+    //     e.preventDefault();
+    //     const serviceID = 'default_service';
+    //     const templateID = 'template_trcpd9k';
 
-        emailjs.sendForm(serviceID, templateID, form)
-            .then(() => {
-                alert('Məktub Göndərildi');
-            }, (err) => {
-                alert(JSON.stringify(err));
-            });
-    })
+    //     emailjs.sendForm(serviceID, templateID, form)
+    //         .then(() => {
+    //             alert('Məktub Göndərildi');
+    //         }, (err) => {
+    //             alert(JSON.stringify(err));
+    //         });
+    // })
     return (
         <div className='contact animate-box fadeInUp animated ' >
             <form id="formFeedback ">
