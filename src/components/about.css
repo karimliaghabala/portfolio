@@ -6,10 +6,7 @@
 .left{
     margin-right: 30px;
 }
-.left>p{
-    color: aquamarine;
-    font-style:oblique;
-}
+
 
 .right>img{
     border-radius: 100px;
