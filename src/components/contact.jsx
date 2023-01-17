@@ -1,22 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './contact.css'
 
 export default function Contact() {
-    // const submit = document.getElementById('submitEmail');
-    // const form = document.getElementById('formFeedback');
 
-    // submit.addEventListener('click', (e) => {
-    //     e.preventDefault();
-    //     const serviceID = 'default_service';
-    //     const templateID = 'template_trcpd9k';
+    const handleChange = (e) => {
+        e.preventDefault()
+        const serviceID = 'default_service';
+        const templateID = 'template_trcpd9k';
 
-    //     emailjs.sendForm(serviceID, templateID, form)
-    //         .then(() => {
-    //             alert('Məktub Göndərildi');
-    //         }, (err) => {
-    //             alert(JSON.stringify(err));
-    //         });
-    // })
+        emailjs.sendForm(serviceID, templateID, form)
+            .then(() => {
+                alert('Məktub Göndərildi');
+            }, (err) => {
+                alert(JSON.stringify(err));
+            });
+    };
     return (
         <div className='contact animate-box fadeInUp animated ' >
             <form id="formFeedback ">
@@ -34,8 +32,9 @@ export default function Contact() {
                     <label htmlFor="exampleFormControlTextarea1" className='color-f'>Təklif və iradlarınızı bizimlə bölüşün</label>
                     <textarea type="text" className="form-control" name="mesagge" rows="2"></textarea>
                 </div>
-                <button id="submitEmail " type="submit" className="btn btn-outline-success my-2 my-sm-0 color-f">Göndər</button>
+                <button id="submitEmail " type="submit" className="btn btn-outline-success my-2 my-sm-0 color-f" onClick={handleChange}>Göndər</button>
             </form>
+
         </div>
     )
 }
