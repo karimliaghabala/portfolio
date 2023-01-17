@@ -6,7 +6,9 @@
 .left{
     margin-right: 30px;
 }
-
+.left>p{
+    font-weight: 900;
+}
 
 .right>img{
     border-radius: 100px;
