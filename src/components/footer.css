@@ -32,13 +32,16 @@
 
 @media screen and (max-width: 830px) {
 
-    .txtc {
-        position: relative;
+    .container-2>a>img{
+
+        margin: 5px;
+        border-radius: 40px;
     }
 }
 
 @media screen and (max-width: 375px) {
-    .txtc {
-        position: relative;
+    .container-2>a>img{
+        margin: 5px;
+        border-radius: 40px;
     }
 }
