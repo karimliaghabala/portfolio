@@ -1,16 +1,30 @@
-
-.image{
+.image {
     background-color: rgba(251, 251, 251, 0.2);
 }
-.textFooter{
+
+.textFooter {
     background-color: rgba(0, 0, 0, 0.2);
     margin: 0;
     padding: 0;
     height: 45px;
 }
-.txtc{
+
+.txtc {
     background-color: #caced1;
-    position:-webkit-sticky;
+    position: sticky;
     bottom: 0;
     z-index: 1000;
+}
+
+@media screen and (max-width: 830px) {
+
+    .txtc {
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .txtc {
+        position: relative;
+    }
 }
