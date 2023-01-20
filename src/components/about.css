@@ -23,10 +23,9 @@
     .right>img{
         width: 500px;
         height: 500px;
-    }
-    .right{
         padding: 5px;
     }
+
     
 }
 
@@ -37,8 +36,6 @@
     .right>img{
         width: 250px;
         height: 250px;
-    }
-    .right{
         padding: 5px;
     }
 }
