@@ -1,14 +1,17 @@
-.navbar{
+.navbar {
     position: sticky;
     top: 0;
     z-index: 1000;
 }
-.logo>img{
+
+.logo>img {
     width: 170px;
     height: 45px;
     opacity: 0.7;
     border-radius: 20px;
 }
-.aze-button{
+
+.aze-button {
     background-color: #28a745;
 }
+

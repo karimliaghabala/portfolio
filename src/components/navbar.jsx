@@ -26,7 +26,7 @@ export default function Navbar() {
             <Link className="nav-link btn btn-outline-success text-white " to="/contact">Əlaqə məlumatları</Link>
           </li>
         </ul>
-        <form className="form-inline my-2 my-lg-0">
+        <form className="form-inline my-2 my-lg-0 ">
           <button className="btn btn-outline-success aze-button text-white" type="submit">AZE</button>
           <button className="btn btn-outline-success  text-white" type="submit">ENG</button>
           <button className="btn btn-outline-success  text-white" type="submit">RUS</button>
