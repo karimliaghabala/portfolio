@@ -23,7 +23,10 @@
     .right>img{
         width: 500px;
         height: 500px;
-        margin-left:35;
+        margin-left:25;
+    }
+    .left{
+        margin-left: 0px;
     }
 
     
@@ -36,6 +39,9 @@
     .right>img{
         width: 250px;
         height: 250px;
-        margin-left:45px;
+        margin-left:25px;
+    }
+    .left{
+        margin-left: 0px;
     }
 }
