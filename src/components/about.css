@@ -9,6 +9,7 @@
 }
 .left>p{
     font-weight: 900;
+    text-align: justify;
 }
 
 .right>img{
@@ -19,10 +20,18 @@
     .res{
         display: block
     }
+    .right>img{
+        width: 200px;
+        height: 200px;
+    }
 }
 
 @media screen and (max-width: 375px){
     .res{
         display: block
+    }
+    .right>img{
+        width: 100px;
+        height: 100px;
     }
 }
