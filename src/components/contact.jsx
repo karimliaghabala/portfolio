@@ -1,14 +1,13 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './contact.css'
 
 export default function Contact() {
-
-    const handleChange = (e) => {
+    const handleClick = (e) => {
         e.preventDefault()
         const serviceID = 'default_service';
         const templateID = 'template_trcpd9k';
 
-        emailjs.sendForm(serviceID, templateID, form)
+        emailjs.sendForm(serviceID, templateID)
             .then(() => {
                 alert('Məktub Göndərildi');
             }, (err) => {
@@ -32,7 +31,7 @@ export default function Contact() {
                     <label htmlFor="exampleFormControlTextarea1" className='color-f'>Təklif və iradlarınızı bizimlə bölüşün</label>
                     <textarea type="text" className="form-control" name="mesagge" rows="2"></textarea>
                 </div>
-                <button id="submitEmail " type="submit" className="btn btn-outline-success my-2 my-sm-0 color-f" onClick={handleChange}>Göndər</button>
+                <button id="submitEmail " type="submit" className="btn btn-outline-success my-2 my-sm-0 color-f" onClick={handleClick}>Göndər</button>
             </form>
 
         </div>
