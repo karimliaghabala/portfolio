@@ -29,7 +29,8 @@
 @media screen and (max-width: 830px) {
 
     .container-2>a>img{
-
+        width: 25px;
+        height: 25px;
         margin: 5px;
         border-radius: 40px;
     }
@@ -37,6 +38,8 @@
 
 @media screen and (max-width: 375px) {
     .container-2>a>img{
+        width: 25px;
+        height: 25px;
         margin: 5px;
         border-radius: 40px;
     }
