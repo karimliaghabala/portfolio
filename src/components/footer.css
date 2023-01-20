@@ -10,11 +10,12 @@
 }
 
 .txtc {
-    background-color: #caced1;
+    background-color: #2a234e71;
     position: sticky;
     bottom: 0;
     z-index: 1000;
 }
+
 
 @media screen and (max-width: 830px) {
 
