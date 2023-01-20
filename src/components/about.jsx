@@ -8,14 +8,12 @@ import Myphoto from "../assets/image/aga.png"
 export default function About() {
     const [about, setAbout] = useState(false)
     const [text, setText] = useState("Davamını oxu")
-    const [textBack,setTextBack] = useState(text)
+    const [click,setClick] = useState(false)
 
     const clickButton = () => {
         setAbout(true)
         setText("Davamını bağla")
-        if(textBack === text){
-            setTextBack(false)
-        }
+
     }
     return (
         <>
