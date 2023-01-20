@@ -23,7 +23,7 @@
     .right>img{
         width: 500px;
         height: 500px;
-        padding: 5px;
+        margin: auto;
     }
 
     
@@ -36,6 +36,6 @@
     .right>img{
         width: 250px;
         height: 250px;
-        padding: 5px;
+        margin: auto;
     }
 }
