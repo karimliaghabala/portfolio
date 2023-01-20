@@ -69,7 +69,7 @@ export default function Navbar() {
             </li>
           </ul>
           <form className="form-inline my-2 my-lg-0 " onClick={onClick}>
-            <button className="btn btn-outline-success aze-button text-white" type="submit" value="az">AZE</button>
+            <button className="btn btn-outline-success text-white" type="submit" value="az">AZE</button>
             <button className="btn btn-outline-success  text-white" type="submit" value="en">ENG</button>
             <button className="btn btn-outline-success  text-white" type="submit" value="ru">RUS</button>
           </form>
