@@ -6,8 +6,10 @@ import Image3 from '../assets/image/sertficats/sqlhc.jpg'
 import Image4 from '../assets/image/sertficats/sqlhckrank.jpg'
 import Image5 from '../assets/image/sertficats/sqlsertf.jpeg'
 import Image6 from '../assets/image/sertficats/udemysertf.jpg'
+import {useTranslation } from 'react-i18next'
 
 export default function Sertficat() {
+    const { t } = useTranslation();
     return (
         <>
             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
@@ -38,10 +40,10 @@ export default function Sertficat() {
                 </div>
                 <a className="carousel-control-prev slidePrev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="makePage">Geri</span>
+                    <span className="makePage">{t("prev")}</span>
                 </a>
                 <a className="carousel-control-next slideNext" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span className="makePage">İrəli</span>
+                    <span className="makePage">{t("next")}</span>
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                 </a>
             </div>
