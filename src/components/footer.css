@@ -4,7 +4,13 @@
 }
 .textFooter{
     background-color: rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 0;
+    height: 45px;
 }
 .txtc{
     background-color: #caced1;
+    position:sticky;
+    bottom: 0;
+    z-index: 1000;
 }
