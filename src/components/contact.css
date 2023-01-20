@@ -1,13 +1,13 @@
 .contact{
     max-width: 70%;
     margin: auto;
-    background-color: rgb(103, 113, 167);
+    background-color: rgba(103, 113, 167, 0.425);
     text-align: center;
     margin-top: 30px;
     padding: 10px;
 }
 .form-control{
-    background-color: aquamarine;
+    background-color: rgba(127, 255, 212, 0.541);
 }
 .color-f{
     color: black;

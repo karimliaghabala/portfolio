@@ -5,24 +5,24 @@ import '../components/navbar.css'
 export default function Navbar() {
   return (
     <>
-    <nav className="navbar  navbar-expand-lg navbar-light bg-light nav-back ">
-      <Link className="navbar-brand" to="/">Kərimli Ağabala</Link>
+    <nav className="navbar  navbar-expand-lg navbar-light  nav-back " style={{ backgroundColor: "rgba(19, 193, 236, 0.274)" }}>
+      <Link className="navbar-brand text-info" to="/">Kərimli Ağabala</Link>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse  navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item active">
-            <Link className="nav-link btn btn-outline-success my-2 my-sm-0 " to="/about">Haqqında <span className="sr-only">(current)</span></Link>
+            <Link className="nav-link btn btn-outline-success text-white " to="/about">Haqqında <span className="sr-only">(current)</span></Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link btn btn-outline-success my-2 my-sm-0 " to="/myworks">İş nümunələri</Link>
+            <Link className="nav-link btn btn-outline-success text-white" to="/myworks">İş nümunələri</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link btn btn-outline-success my-2 my-sm-0 " to="/sertficat">Sertfikatlar</Link>
+            <Link className="nav-link btn btn-outline-success text-white " to="/sertficat">Sertfikatlar</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link btn btn-outline-success my-2 my-sm-0 " to="/contact">Əlaqə məlumatları</Link>
+            <Link className="nav-link btn btn-outline-success text-white " to="/contact">Əlaqə məlumatları</Link>
           </li>
         </ul>
         <form className="form-inline my-2 my-lg-0">
