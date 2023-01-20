@@ -3,3 +3,9 @@
     top: 0;
     z-index: 1000;
 }
+.logo>img{
+    width: 170px;
+    height: 60px;
+    opacity: 0.7;
+    border-radius: 20px;
+}
