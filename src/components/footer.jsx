@@ -10,7 +10,7 @@ import Whatsapp from '../assets/image/whatsapp.jpg'
 export default function Footer() {
   return (
     <>
-      <footer className="text-center text-white txtc " >
+    <footer className="text-center text-white txtc " >
         <div className="container container-1">
           <div className='container-2'>
           <a href="https://www.linkedin.com/in/agabala-karimli-317838a9/" target="_blank"> <img src={Linkedin} alt="linkedin" /></a>
@@ -25,6 +25,7 @@ export default function Footer() {
           <a className="text-white" href="#!">Karimli Aghabala</a>
         </div>
       </footer>
+
     </>
   )
 }
