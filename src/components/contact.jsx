@@ -1,6 +1,7 @@
-import React from 'react'
-import './contact.css'
-import {useTranslation } from 'react-i18next'
+import React from 'react';
+import './contact.css';
+import {useTranslation } from 'react-i18next';
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
     const { t } = useTranslation();
