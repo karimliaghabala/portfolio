@@ -19,6 +19,7 @@ export default function Contact() {
     };
     return (
         <div className='contact animate-box fadeInUp animated ' >
+            <div className="blur blur-router"></div>
             <form id="formFeedback " ref={form}>
                 <div className="form-group">
                     <label htmlFor="exampleFormControlInput1" className='text-white'>{t("fullname")}</label>

@@ -9,6 +9,7 @@ export default function Myworks() {
     return (
         <>
         <div className='git-container animate-box fadeInUp animated'>
+        <div className="blur blur-router"></div>
             <p>{t("textcontact")}</p>
             <a href="https://github.com/karimliaghabala" target="_blank"><img src={imageGit} alt="git" /></a>
         </div>

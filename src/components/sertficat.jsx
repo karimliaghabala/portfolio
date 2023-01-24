@@ -13,6 +13,7 @@ export default function Sertficat() {
     return (
         <>
             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+            <div className="blur blur-router"></div>
                 <ol className="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>

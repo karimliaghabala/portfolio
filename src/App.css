@@ -11,5 +11,17 @@ body {
 .nav-back{
     background-color: rgb(129, 129, 167);
 }
-
+.blur {
+    background-color: rgba(158, 236, 11, 0.89);
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(200px);
+    z-index: -9;
+  }
+  .blur-router{
+    width: 20rem;
+    height: 18rem;
+    top:5rem;
+    left:10rem;
+}
 
