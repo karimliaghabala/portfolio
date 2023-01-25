@@ -3,20 +3,20 @@
     background-color: rgba(19, 193, 236, 0.096);
 }
 
-.txtc {
-    position: sticky;
+.footer {
+    display: block;
+    position: fixed;
+    width: 100%;
     bottom: 0;
     z-index: 1000;
     background-color: rgba(19, 193, 236, 0.137);
 }
-.container-1{
-    display: block;
-}
-.container-2{
+
+.footer-top{
     display: flex;
     justify-content: center;
 }
-.container-2>a>img{
+.footer-top>a>img{
     width: 50px;
     height: 50px;
     margin: 10px;
@@ -26,7 +26,7 @@
 
 @media screen and (max-width: 830px) {
 
-    .container-2>a>img{
+    .footer-top>a>img{
         width: 25px;
         height: 25px;
         margin: 5px;
@@ -35,7 +35,7 @@
 }
 
 @media screen and (max-width: 375px) {
-    .container-2>a>img{
+    .footer-top>a>img{
         width: 25px;
         height: 25px;
         margin: 5px;
