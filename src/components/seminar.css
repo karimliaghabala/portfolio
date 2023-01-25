@@ -1,0 +1,15 @@
+.slide{
+    max-width: 50%;
+    margin: auto;
+    margin-top: 30px;
+}
+.makePage{
+    color: rgb(250, 249, 249);
+    font-weight: 900;
+}
+.slideNext{
+    right: -80px;
+}
+.slidePrev{
+    left: -80px;
+}

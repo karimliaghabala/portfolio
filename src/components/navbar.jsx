@@ -21,16 +21,19 @@ export default function Navbar() {
         <div className="collapse  navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              <Link className="nav-link btn btn-outline-success text-white " to="/about">{t("about")} <span className="sr-only">(current)</span></Link>
+              <Link className="nav-link btn text-white btnHover " to="/about">{t("about")} <span className="sr-only">(current)</span></Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link btn btn-outline-success text-white" to="/myworks">{t("projects")}</Link>
+              <Link className="nav-link btn text-white btnHover" to="/myworks">{t("projects")}</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link btn btn-outline-success text-white " to="/sertficat">{t("certficates")}</Link>
+              <Link className="nav-link btn  text-white btnHover" to="/sertficat">{t("certficates")}</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link btn btn-outline-success text-white " to="/contact">{t("contact")}</Link>
+              <Link className="nav-link btn text-white btnHover" to="/seminar">{t("presentations")}</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link btn text-white btnHover" to="/contact">{t("contact")}</Link>
             </li>
           </ul>
             <div>
