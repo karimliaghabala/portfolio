@@ -35,7 +35,7 @@ export default function Contact() {
                     <label htmlFor="exampleFormControlTextarea1" className=' text-white'>{t("offer")}</label>
                     <textarea type="text" className="form-control" name="mesagge" rows="2"></textarea>
                 </div>
-                <button id="submitEmail " type="submit" className="btn btn-outline-success my-2 my-sm-0 text-white" onClick={handleClick}>{t("submit")}</button>
+                <button id="submitEmail " type="submit" className="btn btnHover my-2 my-sm-0 text-white" onClick={handleClick}>{t("submit")}</button>
             </form>
 
         </div>

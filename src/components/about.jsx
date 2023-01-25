@@ -31,7 +31,7 @@ export default function About() {
                 <div className="left fh5co-center-position ">
                     <p className='animate-box fadeInUp animated'>{t("read")}</p>
                     {about ? <p className='animate-box fadeInUp animated p2'>{t("read2")}</p> : null}
-                    <button className='btn btn-outline-success my-2 my-sm-0 animate-box fadeInUp animated text-white' onClick={clickButton}>{t("textRead")}</button>
+                    <button className='btn btnHover my-2 my-sm-0 animate-box fadeInUp animated text-white' onClick={clickButton}>{t("textRead")}</button>
                 </div>
             </div>
         </>
