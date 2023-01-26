@@ -23,14 +23,14 @@ export default function About() {
     }
     return (
         <>
-            <div className="container res">
+            <div className="container res secondText">
                 <div className="blur blur-router"></div>
                 <div className="right">
                     <img src={Myphoto} alt="myphoto" className='img-responsive animate-box fadeInUp animated' />
                 </div>
                 <div className="left fh5co-center-position ">
                     <p className='animate-box fadeInUp animated'>{t("read")}</p>
-                    {about ? <p className='animate-box fadeInUp animated p2'>{t("read2")}</p> : null}
+                    {about ? <p className='animate-box fadeInUp animated p2 '>{t("read2")}</p> : null}
                     <button className='btn btnHover my-2 my-sm-0 animate-box fadeInUp animated text-white' onClick={clickButton}>{t("textRead")}</button>
                 </div>
             </div>

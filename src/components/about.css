@@ -12,6 +12,9 @@
     font-weight: 900;
     text-align: justify;
 }
+.secondText{
+    padding-bottom: 150px;
+}
 
 .right>img{
     border-radius: 100px;
