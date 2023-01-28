@@ -1,6 +1,6 @@
 
 .textFooter {
-    background-color: rgba(19, 193, 236, 0.096);
+    background-color: rgba(255, 255, 255, 0.062);
 }
 
 .footer {
@@ -9,7 +9,7 @@
     width: 100%;
     bottom: 0;
     z-index: -1;
-    background-color: rgba(19, 193, 236, 0.137);
+    background-color: rgba(255, 255, 255, 0.062);
 }
 
 .footer-top{
