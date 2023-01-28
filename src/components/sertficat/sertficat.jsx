@@ -1,14 +1,14 @@
-import React from 'react'
-import './seminar.css'
-import Image1 from '../assets/image/image1.jpg'
-import Image2 from '../assets/image/image2.jpg'
-import Image3 from '../assets/image/image3.jpg'
-import Image4 from '../assets/image/image4.jpg'
-import Image5 from '../assets/image/image5.jpg'
-import Image6 from '../assets/image/image6.jpg'
-import {useTranslation } from 'react-i18next'
+import React from 'react';
+import '../sertficat/sertficat.css';
+import Image1 from '../../assets/image/sertficats/coursera.jpg';
+import Image2 from '../../assets/image/sertficats/ginsertf.jpg';
+import Image3 from '../../assets/image/sertficats/sqlhc.jpg';
+import Image4 from '../../assets/image/sertficats/sqlhckrank.jpg';
+import Image5 from '../../assets/image/sertficats/sqlsertf.jpeg';
+import Image6 from '../../assets/image/sertficats/udemysertf.jpg';
+import {useTranslation } from 'react-i18next';
 
-export default function Seminar() {
+export default function Sertficat() {
     const { t } = useTranslation();
     return (
         <>

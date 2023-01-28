@@ -1,10 +1,10 @@
 import React from 'react'
-import '../components/footer.css'
-import Linkedin from '../assets/image/linkedin.svg';
-import Facebook from '../assets/image/facebook.svg';
-import Twitter from '../assets/image/twitter.svg';
-import Instagram from '../assets/image/instagram.svg';
-import Whatsapp from '../assets/image/whatsapp.svg';
+import '../footer/footer.css'
+import Linkedin from '../../assets/image/linkedin.svg';
+import Facebook from '../../assets/image/facebook.svg';
+import Twitter from '../../assets/image/twitter.svg';
+import Instagram from '../../assets/image/instagram.svg';
+import Whatsapp from '../../assets/image/whatsapp.svg';
 import {Link} from 'react-scroll';
 
 

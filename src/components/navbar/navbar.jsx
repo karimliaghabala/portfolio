@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import '../components/navbar.css'
+import '../navbar/navbar.css'
 import {useTranslation } from 'react-i18next'
-import LogoAga from '../assets/image/logoaga.jpg'
-import Language from '../components/language/language'
+import LogoAga from '../../assets/image/logoaga.jpg'
+import Language from '../language/language'
 
 
 

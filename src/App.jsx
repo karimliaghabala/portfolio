@@ -1,11 +1,11 @@
 import React from 'react'
-import About from './components/about'
-import Contact from './components/contact'
-import Myworks from './components/myworks'
-import Sertficat from './components/sertficat'
-import Footer from './components/footer'
-import Navbar from './components/navbar'
-import Seminar from './components/seminar'
+import About from './components/about/about'
+import Contact from './components/contact/contact'
+import Myworks from './components/myworks/myworks'
+import Sertficat from './components/sertficat/sertficat'
+import Footer from './components/footer/footer'
+import Navbar from './components/navbar/navbar'
+import Seminar from './components/seminar/seminar'
 import { Routes, Route } from 'react-router-dom'
 import "./App.css"
 import "./components/css_library/animation.css"

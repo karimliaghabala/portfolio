@@ -1,5 +1,5 @@
-import React, { useRef, useState } from 'react';
-import './contact.css';
+import React, { useRef} from 'react';
+import '../contact/contact.css';
 import { useTranslation } from 'react-i18next';
 import emailjs from '@emailjs/browser';
 

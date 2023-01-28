@@ -1,6 +1,6 @@
 import React from 'react'
-import imageGit from '../assets/image/git.jpg'
-import './myworks.css'
+import imageGit from '../../assets/image/git.jpg'
+import '../myworks/myworks.css'
 import {useTranslation } from 'react-i18next'
 
 export default function Myworks() {

@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import "./about.css"
-import "./css_library/animation.css"
-import "./css_library/flexslider.css"
-import "./css_library/style.css"
-import Myphoto from "../assets/image/aga.png"
+import "../about/about.css"
+import ".././css_library/animation.css"
+import ".././css_library/flexslider.css"
+import ".././css_library/style.css"
+import Myphoto from "../../assets/image/aga.png"
 import {useTranslation } from 'react-i18next'
 
 export default function About() {
