@@ -5,7 +5,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: auto;
     padding: 0;
-    background-color:teal;
+    background-color:rgba(0, 128, 128, 0.466);
     background-size:cover;
 }
 .nav-back{
