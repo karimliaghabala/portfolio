@@ -20,7 +20,7 @@ const translationAz = {
     read2:"2017 – ci ildə bitirmişəm 2011 – ci ildə TB Bilgi tədris mərkəzində 6 aylıq Office proqramları, Adobe Photoshop proqramları üzrə kurs keçmişəm . Sertfikat verilib Təhsil sahəsində bir çox online kurslarda olmuşam. STEAM, UTİS və.s Hazırda 3 kursda iştirak edirəm . 1 – i əyani 2 – si isə online.1. Təhsil Nazirliyinin təşkil etdiyi «SQL proqramçı» kursunu bitirib sertfikat imtahani vermişəm(92/100 bal).2. Gənclər və idman Nazirliyinin təşkil etdiyi «WEB proqramlaşdırma» (HTML, CSS, JAVA SCRİPT) üzrə online təlimlərdə iştirak etdim . Sertfikat imtahanı verdim.3. Təhsil Nazirliy, İqtisadiyyat Nazirliyi və İT-Academy təşkil etdiyi Web developer kursunda 4 aydir ishtirak edirəm 4. Hal - hazırda online olaraq Oracle DB - üzrə SQL biliyimi möhkəmləndirirəm.",
     textRead:"Davamını oxu",
     presentations:"Təqdimatlar",
-    news:"Front-end proqramçı"
+    news:"WEB proqramçı"
 
 
 
@@ -42,7 +42,7 @@ const translationEn = {
     read2:"I graduated in 2017. In 2011, I completed a 6-month course on Office programs and Adobe Photoshop programs at the TB Bilgi educational center. Certificate issued. I have attended many online courses in the field of education. STEAM, UTIS, etc. I am currently participating in 3 courses. 1 is visual and 2 is online. 1. I finished the SQL programmer course organized by the Ministry of Education and passed the certificate exam (92/100 points). 2. I participated in online trainings on WEB programming (HTML, CSS, JAVA SCRIPT) organized by the Ministry of Youth and Sports. I passed the certificate exam. 3. I have been participating in the Web developer course organized by the Ministry of Education, Ministry of Economy and IT-Academy for 4 months 4. Currently, I am strengthening my SQL knowledge on Oracle DB online.",
     textRead:"Read more",
     presentations:"Presentations",
-    news:"Front-end developer"
+    news:"WEB developer"
 }
 const translationRu = {
     about: "Обо мне",
@@ -61,7 +61,7 @@ const translationRu = {
     read2:"Закончила в 2017 году. В 2011 году прошла 6-месячный курс по офисным программам и программам Adobe Photoshop в образовательном центре ТБ Билги. Сертификат выдан Я посетил много онлайн-курсов в области образования. STEAM, UTIS и т. д. В настоящее время я участвую в 3 курсах. 1 визуальный и 2 онлайн 1. Я закончил курс «Программист SQL», организованный Министерством образования, и сдал сертификационный экзамен (92/100 баллов). Принимала участие в онлайн-тренингах по ВЕБ-программированию (HTML, CSS, JAVA SCRIPT), организованных Министерством молодежи и спорта. Я сдал сертификационный экзамен 3. Я участвую в курсе веб-разработчика, организованном Министерством образования, Министерством экономики и ИТ-Академией в течение 4 месяцев. 4. В настоящее время я совершенствую свои знания SQL в Oracle DB онлайн».",
     textRead:"Читать больше",
     presentations:"Презентации",
-    news:"Фронтенд программист"
+    news:"Веб программист"
 }
 i18n
     .use(initReactI18next)
