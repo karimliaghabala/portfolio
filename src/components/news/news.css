@@ -1,0 +1,46 @@
+.container{
+    max-width: 600px;
+    display: block;
+    padding-bottom:6rem ;
+    
+}
+.container-news{
+    max-width: 100%;
+    display: flex;
+    padding: 1rem;
+}
+.left-c{
+    max-width: 200px;
+    padding: 1rem;
+}
+.left-c>img{
+    width: 100px;
+    height: 100px;
+}
+.right-c{
+    max-width: 400px;
+    padding: 1rem;
+}
+.right-c>p{
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+.news{
+    display: block;
+}
+.news>p{
+    color: white;
+    text-align:left;
+}
+.news>h3{
+    color: white;
+    font-style: italic;
+
+}
+.news img{
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+}
