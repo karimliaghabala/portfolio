@@ -24,8 +24,8 @@
         display: block
     }
     .right>img{
-        width: 250px;
-        height: 250px;
+        width: 150px;
+        height: 150px;
         margin-left:35px;
         border-radius: 20px;
     }
@@ -41,8 +41,8 @@
         display: block
     }
     .right>img{
-        width: 250px;
-        height: 250px;
+        width: 150px;
+        height: 150px;
         margin-left:10px;
         border-radius: 20px;
     }
