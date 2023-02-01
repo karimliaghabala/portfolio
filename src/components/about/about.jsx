@@ -24,7 +24,6 @@ export default function About() {
     return (
         <>
             <div className="container res secondText">
-                <div className="blur blur-router"></div>
                 <div className="right">
                     <img src={Myphoto} alt="myphoto" className='img-responsive animate-box fadeInUp animated' />
                 </div>
