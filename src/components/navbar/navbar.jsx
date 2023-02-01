@@ -33,6 +33,9 @@ export default function Navbar() {
               <Link className="nav-link btn text-white btnHover" to="/seminar">{t("presentations")}</Link>
             </li>
             <li className="nav-item">
+              <Link className="nav-link btn text-white btnHover" to="/news">{t("news")}</Link>
+            </li>
+            <li className="nav-item">
               <Link className="nav-link btn text-white btnHover" to="/contact">{t("contact")}</Link>
             </li>
           </ul>

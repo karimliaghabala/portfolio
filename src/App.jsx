@@ -6,6 +6,7 @@ import Sertficat from './components/sertficat/sertficat'
 import Footer from './components/footer/footer'
 import Navbar from './components/navbar/navbar'
 import Seminar from './components/seminar/seminar'
+import News from './components/news/news'
 import { Routes, Route } from 'react-router-dom'
 import "./App.css"
 import "./components/css_library/animation.css"
@@ -20,9 +21,10 @@ export default function App() {
         <Route path='/myworks' element={<Myworks />} />
         <Route path='/sertficat' element={<Sertficat />} />
         <Route path='/seminar' element={<Seminar />} />
+        <Route path='/news' element={<News />} />
       </Routes>
       <Footer />
     </>
-    
+
   )
 }
