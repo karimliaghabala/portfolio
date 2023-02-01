@@ -1,4 +1,4 @@
-.container{
+.container-h{
     max-width: 600px;
     display: block;
     padding-bottom:6rem ;
@@ -42,5 +42,5 @@
 .news img{
     padding: 10px;
     width: 400px;
-    height: 400px;
+    height: 350px;
 }

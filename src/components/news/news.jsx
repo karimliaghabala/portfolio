@@ -2,13 +2,12 @@ import React, { useState } from 'react';
 import '../news/news.css';
 import News1 from '../../assets/image/image-news/news1.png';
 import News2 from '../../assets/image/image-news/news2.png';
-import News3 from '../../assets/image/image-news/news3.png';
 
 const News = () => {
     const [news, setNews] = useState(false)
     return (
         <>
-            <div className="container">
+            <div className="container container-h">
                 {news ? null : <div className="headline">
                     <div className="container-news">
                         <div className="left-c">
@@ -30,7 +29,6 @@ const News = () => {
                         <p>var: Eski tarz bir değişken tanımlama yöntemidir ve kapsam (scope) kuralları açısından sınırlıdır. Aynı isimde bir başka değişken tanımlanabileceği için tanımlama yerine göre farklı değerler alabilir ve global olarak erişilebilir.</p>
                         <img src={News2} alt="" />
                         <p>let: var'dan daha modern bir değişken tanımlama yöntemidir ve block scope kavramına sahiptir. Yani, tanımlandığı blok içinde geçerlidir ve dışında erişilemez. Aynı isimde başka bir değişken tanımlanamaz.</p>
-                        <img src={News3} alt="" />
                         <p>const: Değerinin değiştirilmemesi gereken değişkenler için kullanılır. Block scope kavramına sahiptir ve aynı isimde başka bir değişken tanımlanamaz. Değeri tanımlandıktan sonra değiştirilemez.</p></p>
                         <button className='btn btnHover' onClick={()=>{setNews(false)}} >Əsas səhifəyə qayıt</button>
                 </div> : null}
