@@ -9,6 +9,9 @@
     display: flex;
     padding: 1rem;
 }
+h2{
+    color: white;
+}
 .left-c{
     max-width: 200px;
     padding: 1rem;
@@ -52,6 +55,9 @@
         width: 250px;
         height: 210px;
     }
+    h2{
+        font-size: medium;
+    }
     
 }
 
@@ -60,5 +66,8 @@
         padding: 5px;
         width: 180px;
         height: 130px;
+    }
+    h2{
+        font-size: medium;
     }
 }

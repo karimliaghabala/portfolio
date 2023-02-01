@@ -8,6 +8,7 @@ const News = () => {
     return (
         <>
             <div className="container container-h">
+            <h2>BUNLARI MÜTLƏQ BİLMƏLİYİK</h2>
                 {news ? null : <div className="headline">
                     <div className="container-news">
                         <div className="left-c">
