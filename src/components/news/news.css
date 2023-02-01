@@ -44,3 +44,21 @@
     width: 400px;
     height: 350px;
 }
+
+
+@media screen and (max-width: 830px){
+    .news img{
+        padding: 7px;
+        width: 250px;
+        height: 210px;
+    }
+    
+}
+
+@media screen and (max-width: 375px){
+    .news img{
+        padding: 5px;
+        width: 180px;
+        height: 130px;
+    }
+}
