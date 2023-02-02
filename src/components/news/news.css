@@ -63,6 +63,9 @@ h2{
     h2{
         font-size: medium;
     }
+    .headline{
+        display: block;
+    }
     
 }
 
@@ -74,5 +77,8 @@ h2{
     }
     h2{
         font-size: medium;
+    }
+    .headline{
+        display: block;
     }
 }
