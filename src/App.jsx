@@ -7,8 +7,11 @@ import Footer from './components/footer/footer';
 import Navbar from './components/navbar/navbar';
 import Seminar from './components/seminar/seminar';
 import News from './components/news/news';
+import Blog1 from './components/news/blog1'
+import Blog2 from './components/news/blog2'
 import { Routes, Route } from 'react-router-dom';
 import "./App.css";
+import './components/news/news.css';
 import "./components/css_library/animation.css";
 export default function App() {
   return (
@@ -22,6 +25,8 @@ export default function App() {
         <Route path='/sertficat' element={<Sertficat />} />
         <Route path='/seminar' element={<Seminar />} />
         <Route path='/news' element={<News />} />
+        <Route path="blog1/" element={<Blog1 />} />
+        <Route path="blog2/" element={<Blog2 />} />
       </Routes>
       <Footer />
     </>
