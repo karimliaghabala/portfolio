@@ -62,7 +62,7 @@ const News = () => {
                     <p>Have you heard about DOM manipulation? Let’s see what is DOM?
                         Document Object Model (DOM) is a programming interface for HTML. Simply you can say, the structure of your HTML document. The DOM is a tree-like representation of the contents of a webpage using nodes instead of elements. These nodes represent HTML elements, and they can be manipulated and re-rendered. The DOM is hierarchical, following a logical
                         tree-like structure, where child nodes are contained in parent nodes.</p>
-                    <img src={News3} alt="" />
+                    <img src={News3} className="dom" alt="" />
                     <p>You will see three properties while working on DOM i.e innerText, innerHTML, textContent. You’ll need to know how to change the text or the HTML that appears on the page to make your sites more interactive. All innerText, innerHTML and textContent properties let you access and change the contents of a tag. That’s where the innerText and innerHTML, textContent HTML attributes come in. People sometimes got confused about these three properties. It’s time to clear all the confusion and get to know where to use these properties.</p>
                     <img src={News4} alt="" />
                     <h6>HTML that we will use for examples</h6>
