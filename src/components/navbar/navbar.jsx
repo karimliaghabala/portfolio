@@ -9,7 +9,6 @@ import Language from '../language/language'
 
 export default function Navbar() {
   const { t } = useTranslation();
-
   return (
     <>
       <nav className="navbar  navbar-expand-lg navbar-light  nav-back " style={{ backgroundColor: "rgba(255, 255, 255, 0.062)" }}>
