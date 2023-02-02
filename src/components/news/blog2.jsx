@@ -8,6 +8,7 @@ import News7 from '../../assets/image/image-news/in4.jpg';
 import News8 from '../../assets/image/image-news/in5.jpg';
 import News9 from '../../assets/image/image-news/in6.jpg';
 import News10 from '../../assets/image/image-news/in7.jpg';
+import { Link } from 'react-router-dom';
 
 const Blog2 = () => {
   return (
@@ -41,7 +42,7 @@ const Blog2 = () => {
     <h6>Javascript code for textContent</h6>
     <img src={News10} alt="" />
     <h6>Javascript code for textContent (Output)</h6>
-    <button className='btn btnHover' >Əsas səhifəyə qayıt</button>
+    <Link className="nav-link btn text-white btnHover" to="/news">Əsas səhifəyə qayıt</Link>
 </div> 
   )
 }

@@ -32,15 +32,21 @@ h2{
     font-style: italic;
     text-align: center;
 }
-
+.news, .news2{
+    max-width: 600px;
+    margin: auto;
+}
 .news, .news2 p{
     color: white;
     text-align:left;
 }
-.news, .news2 h3{
+.news2 >h3{
     color: white;
     font-style: italic;
-
+}
+.news>h3{
+    color: white;
+    font-style: italic;
 }
 .dom{
     padding: 10px;
