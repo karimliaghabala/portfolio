@@ -7,8 +7,9 @@ import Footer from './components/footer/footer';
 import Navbar from './components/navbar/navbar';
 import Seminar from './components/seminar/seminar';
 import News from './components/news/news';
-import Blog1 from './components/news/blog1'
-import Blog2 from './components/news/blog2'
+import Blog1 from './components/news/blog1';
+import Blog2 from './components/news/blog2';
+import Blog3 from './components/news/blog3';
 import { Routes, Route } from 'react-router-dom';
 import "./App.css";
 import './components/news/news.css';
@@ -27,6 +28,7 @@ export default function App() {
         <Route path='/news' element={<News />} />
         <Route path="blog1/" element={<Blog1 />} />
         <Route path="blog2/" element={<Blog2 />} />
+        <Route path="blog3/" element={<Blog3 />} />
       </Routes>
       <Footer />
     </>
