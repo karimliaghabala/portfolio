@@ -11,7 +11,7 @@ const Blog2 = () => {
   return (
     <div className="news2" >
     <h3>Asinxron Proqramlaşdırma nədir? Niyə Callback funksiyasına ehtiyac duyuruq?.</h3>
-    <p>Asinxron proqramlaşdırma deyildiyi zaman, insanlardan eşitəcəyiniz ilk şey bloklanmayan koddur. Yəni uzun bir işin bitməsini gözləmədən digər işlərin həyata keçməsinə Asinxron proqramlaşdırma deyə bilərik.Öncəliklə bunu qeyd etməliyəm ki ,JavaScript Asekxron proqramla məntiqi ilə işlədiyi üçün kod sətirləri bir birini gözləmədən işə düşür.Bunun qarşısını ala bilmək üçün Callback, Promise və Async köməyimizə çatır.
+    <p>Asinxron proqramlaşdırma deyildiyi zaman, insanlardan eşitəcəyiniz ilk şey bloklanmayan koddur. Yəni uzun bir işin bitməsini gözləmədən digər işlərin həyata keçməsinə Asinxron proqramlaşdırma deyə bilərik.Öncəliklə bunu qeyd etməliyəm ki ,JavaScript Asinxron proqramla məntiqi ilə işlədiyi üçün kod sətirləri bir birini gözləmədən işə düşür.Bunun qarşısını ala bilmək üçün Callback, Promise və Async köməyimizə çatır.
 
 İlk olaraq ‘Callback’ funksiyasına aid bir misal göstəcəm və izahı onun üzərindən verəcəm .</p>
     <img src={News1}  alt="" />
