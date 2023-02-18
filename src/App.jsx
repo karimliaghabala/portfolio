@@ -26,9 +26,7 @@ export default function App() {
         <Route path='/sertficat' element={<Sertficat />} />
         <Route path='/seminar' element={<Seminar />} />
         <Route path='/news' element={<News />} />
-        <Route path="blog1/" element={<Blog1 />} />
-        <Route path="blog2/" element={<Blog2 />} />
-        <Route path="blog3/" element={<Blog3 />} />
+        <Route path="blog1/:id" element={<Blog1 />} />
       </Routes>
       <Footer />
     </>
