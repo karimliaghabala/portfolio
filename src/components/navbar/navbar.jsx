@@ -5,8 +5,6 @@ import {useTranslation } from 'react-i18next'
 import LogoAga from '../../assets/image/logoaga.jpg'
 import Language from '../language/language'
 
-
-
 export default function Navbar() {
   const { t } = useTranslation();
   return (
