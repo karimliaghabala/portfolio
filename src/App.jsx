@@ -8,8 +8,6 @@ import Navbar from './components/navbar/navbar';
 import Seminar from './components/seminar/seminar';
 import News from './components/news/news';
 import Blog1 from './components/news/blog1';
-import Blog2 from './components/news/blog2';
-import Blog3 from './components/news/blog3';
 import { Routes, Route } from 'react-router-dom';
 import "./App.css";
 import './components/news/news.css';
