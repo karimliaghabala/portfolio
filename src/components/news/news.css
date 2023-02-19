@@ -48,6 +48,9 @@ h2{
     color: white;
     font-style: italic;
 }
+.news p{
+    text-align: justify;
+}
 .dom{
     padding: 10px;
     width: 450px;
