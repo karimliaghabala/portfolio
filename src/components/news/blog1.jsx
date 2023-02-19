@@ -20,7 +20,7 @@ const Blog1 = () => {
               <p><p>{item.content}</p>
                 <img src={item.linkimg1} alt="" />
                 <p>{item.content1}</p>
-                <img src={item.linkimg1} alt="" />
+                <img src={item.linkimg2} alt="" />
                 <p>{item.content2}</p></p>
                 <Link className="nav-link btn text-white btnHover" to="/news">Əsas səhifəyə qayıt</Link>
             </li>
