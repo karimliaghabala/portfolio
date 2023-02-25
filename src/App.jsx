@@ -27,6 +27,7 @@ export default function App() {
         <Route path="blog1/:id" element={<Blog1 />} />
       </Routes>
       <Footer />
+      
     </>
 
   )
