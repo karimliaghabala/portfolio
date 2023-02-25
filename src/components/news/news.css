@@ -69,8 +69,8 @@ ul>li{
 @media screen and (max-width: 830px){
     .news img{
         padding: 7px;
-        width: 250px;
-        height: 210px;
+        width: 320px;
+        height: 250px;
     }
     h2{
         font-size: medium;
@@ -84,8 +84,8 @@ ul>li{
 @media screen and (max-width: 375px){
     .news img{
         padding: 5px;
-        width: 180px;
-        height: 130px;
+        width: 250px;
+        height: 180px;
     }
     h2{
         font-size: medium;
