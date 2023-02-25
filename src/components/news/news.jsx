@@ -8,7 +8,9 @@ const News = () => {
         fetch('https://portfolio-api-alpha.vercel.app/')
             .then(res => res.json())
             .then(apiData => setData(apiData))
+            
     }, [])
+    data.reverse()
     return (
         <>
             <div className="container container-h">
@@ -22,7 +24,7 @@ const News = () => {
                                 </div>
                                 <div className="right-c">
                                     <p>{item.title}</p>
-                                    <Link className="nav-link btn text-white btnHover" to={`/blog1/${item.id}`} >Davamını oxu</Link>
+                                    <Link className="nav-link btn text-white btnHover" to={`/blog1/${item.id}`} >Ətraflı oxu</Link>
                                 </div>
                             </div>
                         </li>
