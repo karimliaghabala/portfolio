@@ -38,7 +38,8 @@
       title="LiveInternet: number of visitors for today is shown"
       src="./src/assets/image/st.PNG" alt="" /></a>
   <script>(function (d, s) {
-      d.getElementById("licntA1DA").src + escape(d.referrer) +
+      d.getElementById("licntA1DA").src =
+      "https://counter.yadro.ru/hit?t26.6;r" + escape(d.referrer) +
       ((typeof (s) == "undefined") ? "" : ";s" + s.width + "*" + s.height + "*" +
         (s.colorDepth ? s.colorDepth : s.pixelDepth)) + ";u" + escape(d.URL) +
       ";h" + escape(d.title.substring(0, 150)) + ";" + Math.random()
