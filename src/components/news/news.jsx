@@ -25,6 +25,7 @@ const News = () => {
                                 <div className="right-c">
                                     <p>{item.title}</p>
                                     <Link className="nav-link btn text-white btnHover" to={`/blog1/${item.id}`} >Ətraflı oxu</Link>
+                                    <p>Tarix: {item.date_time.slice(0,10)}</p>
                                 </div>
                             </div>
                         </li>
