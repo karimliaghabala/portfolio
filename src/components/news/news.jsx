@@ -18,6 +18,7 @@ const News = () => {
                 <ul>
                     {data?.map(item => (
                         <li className="headline" key={item.id}>
+                            <p className='dattim'>Tarix: {item.date_time.slice(0,10)}</p>
                             <div className="container-news">
                                 <div className="left-c">
                                     <img src={item.linkimg1} alt="img" />
@@ -25,7 +26,6 @@ const News = () => {
                                 <div className="right-c">
                                     <p>{item.title}</p>
                                     <Link className="nav-link btn text-white btnHover" to={`/blog1/${item.id}`} >Ətraflı oxu</Link>
-                                    <p>Tarix: {item.date_time.slice(0,10)}</p>
                                 </div>
                             </div>
                         </li>
