@@ -10,3 +10,30 @@
 .git-container>a>img{
     width: 70%;
 }
+.container-portfolio{
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.cp-all{
+    width: 350px;
+    border: 1px dashed white;
+    background-color: rgba(0, 255, 255, 0.185);
+    text-align: center;
+    margin-bottom: 10px
+}
+.cp-all>:nth-child(1){
+    font-size: 22px;
+    color: wheat;
+}
+.cp-all>a{
+    display: block;
+    position: relative;
+    bottom: 20px;
+}
+.cp-all>a:hover{
+    background-color: blueviolet;
+}
