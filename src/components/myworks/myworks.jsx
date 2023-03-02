@@ -15,7 +15,7 @@ export default function Myworks() {
                         <div className=" cp-all">
                             <p>Coğrafiya portalı</p>
                             <a href="https://cografiya-info.vercel.app/" target="_blank">Keçid linki</a>
-                            <a href="#" target="_blank">Github linki(real layihə)</a>
+                            <a href="#" target="_blank">Github linki(real layihə)(yekunlaşmayıb)</a>
                         </div>
                         <div className=" cp-all">
                             <p>Əvvəlki portfolio</p>
