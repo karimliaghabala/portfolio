@@ -6,6 +6,7 @@ import Image3 from '../../assets/image/sertficats/sqlhc.jpg';
 import Image4 from '../../assets/image/sertficats/sqlhckrank.jpg';
 import Image5 from '../../assets/image/sertficats/sqlsertf.jpeg';
 import Image6 from '../../assets/image/sertficats/udemysertf.jpg';
+import Image7 from '../../assets/image/sertficats/itacademy.jpg';
 import {useTranslation } from 'react-i18next';
 
 export default function Sertficat() {
@@ -37,6 +38,9 @@ export default function Sertficat() {
                     </div>
                     <div className="carousel-item">
                         <img className="d-block w-100" src={Image6} alt="Sixth slide"></img>
+                    </div>
+                    <div className="carousel-item">
+                        <img className="d-block w-100" src={Image7} alt="seven slide"></img>
                     </div>
                 </div>
                 <a className="carousel-control-prev slidePrev" href="#carouselExampleIndicators" role="button" data-slide="prev">
