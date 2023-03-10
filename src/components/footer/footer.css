@@ -5,10 +5,7 @@
 
 .footer {
     display: block;
-    position:fixed;
     width: 100%;
-    bottom: 0;
-    z-index: 500;
     background-color: rgba(219, 218, 228, 0.096);
 }
 
