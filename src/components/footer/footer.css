@@ -6,12 +6,13 @@
 .footer {
     display: block;
     width: 100%;
-    background-color: rgba(219, 218, 228, 0.096);
+    background-color: rgba(0, 255, 255, 0.068);
 }
 
 .footer-top{
     display: flex;
     justify-content: center;
+    background-color: rgba(0, 255, 255, 0.075);
 }
 .footer-top>a>img{
     width: 40px;
