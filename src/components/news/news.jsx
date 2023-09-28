@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const News = () => {
     const [data, setData] = useState([])
     useEffect(() => {
-        fetch('https://portfolio-api-alpha.vercel.app/')
+        fetch('https://portfolio-api-six-rosy.vercel.app/')
             .then(res => res.json())
             .then(apiData => setData(apiData))
             

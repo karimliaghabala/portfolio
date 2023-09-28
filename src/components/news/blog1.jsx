@@ -7,7 +7,7 @@ const Blog1 = () => {
   const [data, setData] = useState([])
   const {id} = useParams()
   useEffect(() => {
-      fetch(`https://portfolio-api-alpha.vercel.app/${id}`)
+      fetch(`https://portfolio-api-six-rosy.vercel.app/${id}`)
           .then(res => res.json())
           .then(apiData => setData(apiData))
   }, [id])
