@@ -8,7 +8,6 @@ const News = () => {
         fetch('https://portfolio-api-six-rosy.vercel.app/')
             .then(res => res.json())
             .then(apiData => setData(apiData))
-            
     }, [])
     data.reverse()
     return (
