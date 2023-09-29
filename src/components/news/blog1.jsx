@@ -5,17 +5,17 @@ import { Link } from 'react-router-dom';
 
 const Blog1 = () => {
   const [data, setData] = useState([])
-  const {id} = useParams()
+  const {_id} = useParams()
   useEffect(() => {
-      fetch(`https://portfolio-api-six-rosy.vercel.app/${id}`)
+      fetch(`https://portfolio-api-six-rosy.vercel.app/${_id}`)
           .then(res => res.json())
           .then(apiData => setData(apiData))
-  }, [id])
+  }, [_id])
   return (
     <>
     <ul>
       {data?.map(item=>(
-              <li className="news"  key={item.id}>
+              <li className="news"  key={item._id}>
               <h3>{item.title}</h3>
               <p><p>{item.content}</p>
                 <img src={item.linkimg1} alt="" />
