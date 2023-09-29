@@ -24,7 +24,7 @@ const News = () => {
                                 </div>
                                 <div className="right-c">
                                     <p>{item.title}</p>
-                                    <Link className="nav-link btn text-white btnHover" to={`/blog1/${item._id}`} >Ətraflı oxu</Link>
+                                    <Link className="nav-link btn text-white btnHover" to={`/blog1/${item._id}`}>Ətraflı oxu</Link>
                                 </div>
                             </div>
                         </li>

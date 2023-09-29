@@ -18,9 +18,9 @@ const Blog1 = () => {
               <li className="news"  key={item._id}>
               <h3>{item.title}</h3>
               <p><p>{item.content}</p>
-                <img src={item.linkimg1} alt="" />
+                <img src={item.linkimg1} alt="img" />
                 <p>{item.content1}</p>
-                <img src={item.linkimg2} alt="" />
+                <img src={item.linkimg2} alt="img" />
                 <p>{item.content2}</p></p>
                 <Link className="nav-link btn text-white btnHover" to="/news">Əsas səhifəyə qayıt</Link>
             </li>
