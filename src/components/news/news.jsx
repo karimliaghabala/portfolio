@@ -17,7 +17,7 @@ const News = () => {
                 <ul>
                     {data?.map(item => (
                         <li className="headline" key={item._id}>
-                            {/* <p className='dattim'>Tarix: {item.date_time.slice(0,10)}</p> */}
+                            <p className='dattim'>Tarix: {item.date_time.slice(0,10)}</p>
                             <div className="container-news">
                                 <div className="left-c">
                                     <img src={item.linkimg1} alt="img" />
