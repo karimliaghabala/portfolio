@@ -6,15 +6,20 @@
 
 .git-container>p {
     color: aqua;
-    max-width: 70%;
-    margin: auto;
+    width: 100%;
+    text-align: center;
 }
 
 .git-container>a  {
-    max-width: 70%;
+    width: 100%;    
     margin-left: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 .git-container>a>img{
+
     width: 100%;
     height: auto;
 }
