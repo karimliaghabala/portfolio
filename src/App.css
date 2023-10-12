@@ -14,5 +14,10 @@ body {
 .btnHover:hover{
     background-color: rgba(255, 255, 255, 0.062);
 }
+marquee{
+    font-size: 20px;
+    font-weight: bolder;
+    color: yellow;
+}
 
 

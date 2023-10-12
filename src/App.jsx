@@ -15,7 +15,9 @@ import "./components/css_library/animation.css";
 export default function App() {
   return (
     <>
-    <div><a href="https://aghabala-karimli.vercel.app/">Yeni versiyaya keçid</a></div>
+    <a href="https://aghabala-karimli.vercel.app/" >
+  marquee    <>Yeni versiyaya keçid üçün klik et------Yeni versiyaya keçid üçün klik et------Yeni versiyaya keçid üçün klik et </>
+    </a>
       <Navbar />
       <Routes>
         <Route path='/' element={<About />} />
