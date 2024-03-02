@@ -12,11 +12,12 @@ export default function Footer() {
     <>
     <footer className="text-center text-white footer " >
           <div className='footer-top'>
-          <a href="https://www.linkedin.com/in/agabala-karimli-317838a9/" target="_blank"> <img src={Linkedin} alt="linkedin" /></a>
-          <a href="https://www.facebook.com/heyatin.bashlangici/" target="_blank"> <img src={Facebook} alt="Facebook" /></a>
-          <a href="https://twitter.com/Kerimli_Agabala" target="_blank"> <img src={Twitter} alt="Twitter" /></a>
-          <a href="https://www.instagram.com/agabala_zerdabi/" target="_blank"> <img src={Instagram} alt="Instagram" /></a>
-          <a href="https://wa.me/qr/MAMPEMBTIOGOO1 " target="_blank"> <img src={Whatsapp} alt="Whatsapp" /></a>
+          <a href="https://www.linkedin.com/in/agabala-karimli-317838a9111/" target="_blank"> <img src={Linkedin} alt="linkedin" /></a>
+          <a href="https://www.facebook.com/heyatin.bashlangici111/" target="_blank"> <img src={Facebook} alt="Facebook" /></a>
+          <a href="https://twitter.com/Kerimli_Agabala111" target="_blank"> <img src={Twitter} alt="Twitter" /></a>
+          <a href="https://www.instagram.com/agabala_zerdabi111/" target="_blank"> <img src={Instagram} alt="Instagram" /></a>
+          <a href="https://wa.me/qr/MAMPEMBTIOGOO1111 " target="_blank"> <img src={Whatsapp} alt="Whatsapp" /></a>
+{/*             linklerin sonuna 1 yazdim ki linkler ishlemesin */}
           </div>
         <div className="text-center p-3 textFooter" >
           © 2023 Copyright:
