@@ -16,7 +16,7 @@ export default function App() {
   return (
     <>
     <a href="https://aghabala-karimli.vercel.app/" >
-   <marquee>Yeni versiyaya keçid üçün klik et------Yeni versiyaya keçid üçün klik et------Yeni versiyaya keçid üçün klik et </marquee>
+{/*    <marquee>Yeni versiyaya keçid üçün klik et------Yeni versiyaya keçid üçün klik et------Yeni versiyaya keçid üçün klik et </marquee> */}
     </a>
       <Navbar />
       <Routes>
