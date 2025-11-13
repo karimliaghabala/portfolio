@@ -25,7 +25,7 @@ export default function About() {
         <>
             <div className="container res secondText">
                 <div className="right">
-{/*                     <img src={Myphoto} alt="myphoto" className='img-responsive animate-box fadeInUp animated' /> */}
+ <img src={Myphoto} alt="myphoto" className='img-responsive animate-box fadeInUp animated' /> 
                 </div>
                 <div className="left fh5co-center-position ">
                     <p className='animate-box fadeInUp animated'>{t("read")}</p>
